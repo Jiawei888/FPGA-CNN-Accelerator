@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/luojiawei/Desktop/pynq_1/soc/pynq.sim/sim_1/behav/modelsim
+vpynq_processing_system7_0_0
+!s110 1597530595
+!i10b 1
+!s100 b3HRZWW>ZnDCzDK6HJQ8I3
+I6]I5@=^4EajQ4::9^mKj72
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1597501103
+8../../../../pynq.ip_user_files/bd/pynq/ip/pynq_processing_system7_0_0/sim/pynq_processing_system7_0_0.v
+F../../../../pynq.ip_user_files/bd/pynq/ip/pynq_processing_system7_0_0/sim/pynq_processing_system7_0_0.v
+L0 58
+OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1597530595.554000
+!s107 ../../../../pynq.ip_user_files/bd/pynq/ip/pynq_processing_system7_0_0/sim/pynq_processing_system7_0_0.v|
+!s90 -incr|-work|xil_defaultlib|+incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl|+incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/6b56/hdl|+incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include|../../../../pynq.ip_user_files/bd/pynq/ip/pynq_processing_system7_0_0/sim/pynq_processing_system7_0_0.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -work xil_defaultlib +incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl +incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/6b56/hdl +incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Pool_core.cpp" path="C:\Users\luojiawei\Desktop\pynq_1\ip\pool\Pool_core.cpp"/>
+    <originFiles name="Pool_core.h" path="C:\Users\luojiawei\Desktop\pynq_1\ip\pool\Pool_core.h"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="C:\Users\luojiawei\Desktop\pynq_1\ip\pool\main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

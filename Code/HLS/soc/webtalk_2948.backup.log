@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sat Aug 29 19:24:42 2020
+# Process ID: 2948
+# Current directory: C:/Users/luojiawei/Desktop/pynq_1/soc
+# Command line: wbtcv.exe -mode batch -source C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/luojiawei/Desktop/pynq_1/soc/webtalk.log
+# Journal file: C:/Users/luojiawei/Desktop/pynq_1/soc\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Aug 29 19:24:45 2020...

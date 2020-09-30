@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/luojiawei/Desktop/pynq_1/soc/pynq.sim/sim_1/behav/modelsim
+vaxi_infrastructure_v1_1_0_axi2vector
+Z1 !s110 1597530593
+!i10b 1
+!s100 WaMXR;@PoESl_J13P]nKV2
+I0Ze<K7Qhjdf8mbnA61g<z3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1596842649
+Z4 8../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+Z5 F../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+Z6 F../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+L0 60
+Z7 OL;L;10.4;61
+r1
+!s85 0
+31
+Z8 !s108 1597530593.417000
+Z9 !s107 ../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh|../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v|
+Z10 !s90 -incr|-work|axi_infrastructure_v1_1_0|+incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl|+incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/6b56/hdl|+incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include|../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v|
+!i113 0
+Z11 o-work axi_infrastructure_v1_1_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -work axi_infrastructure_v1_1_0 +incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/ec67/hdl +incdir+../../../../pynq.srcs/sources_1/bd/pynq/ipshared/6b56/hdl +incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vaxi_infrastructure_v1_1_0_axic_srl_fifo
+R1
+!i10b 1
+!s100 R4C99OY:fE[Udm4=iTUPm2
+IUjgd7_dJ];EOcFNYeKZB=0
+R2
+R0
+R3
+R4
+R5
+L0 287
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vaxi_infrastructure_v1_1_0_vector2axi
+R1
+!i10b 1
+!s100 ]oFKHLYkl0AB9<ZRAM^B70
+I3>FSkL7KfWb::9cXQ^T7e0
+R2
+R0
+R3
+R4
+R5
+R6
+L0 474
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12

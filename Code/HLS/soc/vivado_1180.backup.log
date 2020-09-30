@@ -1,0 +1,291 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Aug 23 00:33:11 2020
+# Process ID: 1180
+# Current directory: C:/Users/luojiawei/Desktop/pynq_1/soc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3768 C:\Users\luojiawei\Desktop\pynq_1\soc\pynq.xpr
+# Log file: C:/Users/luojiawei/Desktop/pynq_1/soc/vivado.log
+# Journal file: C:/Users/luojiawei/Desktop/pynq_1/soc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/luojiawei/Desktop/pynq_1/ip_cores'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'pynq.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+pynq_Conv_0_0
+
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 1015.031 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/luojiawei/Desktop/pynq_1/ip_cores'.
+open_bd_design {C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:hls:Conv:1.0 - Conv_0
+Adding component instance block -- xilinx.com:hls:Pool:1.0 - Pool_0
+Successfully read diagram <pynq> from BD file <C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1205.090 ; gain = 0.000
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:hls:Conv:1.0 [get_ips  pynq_Conv_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd'
+INFO: [IP_Flow 19-3422] Upgraded pynq_Conv_0_0 (Conv 1.0) from revision 2008171514 to revision 2008230033
+Wrote  : <C:\Users\luojiawei\Desktop\pynq_1\soc\pynq.srcs\sources_1\bd\pynq\pynq.bd> 
+Wrote  : <C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ui/bd_3e508cc.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/luojiawei/Desktop/pynq_1/soc/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips pynq_Conv_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd]
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP1_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <C:\Users\luojiawei\Desktop\pynq_1\soc\pynq.srcs\sources_1\bd\pynq\pynq.bd> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/synth/pynq.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/sim/pynq.v
+VHDL Output written to : C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/hdl/pynq_wrapper.v
+WARNING: [IP_Flow 19-519] IP 'pynq_Conv_0_0' detected a language mismatch between 'VHDL Simulation Wrapper' and 'Verilog Simulation' output products. Please check with the IP provider to see if this is expected.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Conv_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_pc_0/pynq_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_us_0/pynq_auto_us_0_ooc.xdc'
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_pc_1/pynq_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_us_1/pynq_auto_us_1_ooc.xdc'
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_pc_2/pynq_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/hw_handoff/pynq.hwh
+Generated Block Design Tcl file C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/hw_handoff/pynq_bd.tcl
+Generated Hardware Definition File C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/synth/pynq.hwdef
+generate_target: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1247.961 ; gain = 42.871
+export_ip_user_files -of_objects [get_files C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd] -directory C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.ip_user_files -ipstatic_source_dir C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/modelsim} {questa=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/questa} {riviera=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/riviera} {activehdl=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 23 00:36:24 2020] Launched synth_1...
+Run output will be captured here: C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.runs/synth_1/runme.log
+[Sun Aug 23 00:36:24 2020] Launched impl_1...
+Run output will be captured here: C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.runs/impl_1/runme.log
+write_bd_tcl -force C:/Users/luojiawei/Desktop/pynq_1/soc/awen.tcl
+INFO: [BD 5-148] Tcl file written out <C:/Users/luojiawei/Desktop/pynq_1/soc/awen.tcl>.
+
+file copy -force C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.runs/impl_1/pynq_wrapper.bit C:/Users/luojiawei/Desktop/pynq_1/soc/awen.bit
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: c:/Users/luojiawei/Desktop/pynq_1/ip_cores/Pool_core/Pool_core/solution1/impl/ip/component.xml. It will be created.
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/luojiawei/Desktop/pynq_1/ip_cores'.
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {pynq_Conv_0_0 pynq_Pool_0_0}] -log ip_upgrade.log
+Upgrading 'C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd'
+INFO: [IP_Flow 19-3422] Upgraded pynq_Conv_0_0 (Conv 1.0) from revision 2008230033 to revision 2008230053
+INFO: [IP_Flow 19-3422] Upgraded pynq_Pool_0_0 (Pool 1.0) from revision 2008171523 to revision 2008230056
+Wrote  : <C:\Users\luojiawei\Desktop\pynq_1\soc\pynq.srcs\sources_1\bd\pynq\pynq.bd> 
+Wrote  : <C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ui/bd_3e508cc.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/luojiawei/Desktop/pynq_1/soc/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {pynq_Conv_0_0 pynq_Pool_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd]
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_S_AXI_HP1_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <C:\Users\luojiawei\Desktop\pynq_1\soc\pynq.srcs\sources_1\bd\pynq\pynq.bd> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/synth/pynq.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_arlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_arlock'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon_1/s00_couplers/auto_pc/s_axi_awlock'(1) to pin: '/axi_mem_intercon_1/s00_couplers/S_AXI_awlock'(2) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/sim/pynq.v
+VHDL Output written to : C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/hdl/pynq_wrapper.v
+WARNING: [IP_Flow 19-519] IP 'pynq_Conv_0_0' detected a language mismatch between 'VHDL Simulation Wrapper' and 'Verilog Simulation' output products. Please check with the IP provider to see if this is expected.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Conv_0 .
+WARNING: [IP_Flow 19-519] IP 'pynq_Pool_0_0' detected a language mismatch between 'VHDL Simulation Wrapper' and 'Verilog Simulation' output products. Please check with the IP provider to see if this is expected.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Pool_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_pc_0/pynq_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_us_0/pynq_auto_us_0_ooc.xdc'
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_pc_1/pynq_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_us_1/pynq_auto_us_1_ooc.xdc'
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon_1/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/ip/pynq_auto_pc_2/pynq_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/hw_handoff/pynq.hwh
+Generated Block Design Tcl file C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/hw_handoff/pynq_bd.tcl
+Generated Hardware Definition File C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/synth/pynq.hwdef
+generate_target: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1285.988 ; gain = 11.598
+export_ip_user_files -of_objects [get_files C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd] -directory C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.ip_user_files -ipstatic_source_dir C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/modelsim} {questa=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/questa} {riviera=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/riviera} {activehdl=C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.srcs/sources_1/bd/pynq/pynq.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 23 00:58:36 2020] Launched synth_1...
+Run output will be captured here: C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.runs/synth_1/runme.log
+[Sun Aug 23 00:58:36 2020] Launched impl_1...
+Run output will be captured here: C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.runs/impl_1/runme.log
+write_bd_tcl -force C:/Users/luojiawei/Desktop/pynq_1/soc/awen.tcl
+INFO: [BD 5-148] Tcl file written out <C:/Users/luojiawei/Desktop/pynq_1/soc/awen.tcl>.
+
+file copy -force C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.runs/impl_1/pynq_wrapper.bit C:/Users/luojiawei/Desktop/pynq_1/soc/awen.bit
+set_property compxlib.modelsim_compiled_library_dir C:/Xilinx/Xlib [current_project]
+compile_simlib -simulator modelsim -simulator_exec_path {C:/modeltech64_10.4/win64} -family all -language all -library all -dir {C:/Xilinx/Xlib} -no_ip_compile
+INFO: [Vivado 12-5496] Finding simulator executables and checking version...
+WARNING: [Vivado 12-5495] Detected incompatible modelsim simulator installation version '10.4'! The supported simulator version for the current Vivado release is '2019.4'.
+INFO: [Vivado 12-5498] Processing source library information for the selected device family (default:all) ...
+
+Compiling libraries for 'modelsim' simulator in 'C:/Xilinx/Xlib'
+Creating modelsim.ini file...
+Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+vmap -c 
+Copying C:/modeltech64_10.4/win64/../modelsim.ini to modelsim.ini
+--> Compiling 'verilog.secureip' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/secureip'
+    > Compiled Path  = 'C:\Xilinx\Xlib\secureip'
+    > Log File       = 'C:/Xilinx/Xlib/secureip/.cxl.verilog.secureip.secureip.nt64.log'
+
+compile_simlib[verilog.secureip]: 2 error(s), 0 warning(s), 12.50 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:verilog:secureip)' and 'END_COMPILATION_MESSAGES(modelsim:verilog:secureip)' in the log file compile_simlib.log for details of compilation error(s).
+
+--> Compiling 'vhdl.unisim' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/vhdl/src/unisims'
+    > Compiled Path  = 'C:\Xilinx\Xlib\unisim'
+    > Log File       = 'C:/Xilinx/Xlib/unisim/.cxl.vhdl.unisim.unisim.nt64.log'
+--> Compiling 'vhdl.unisim:vhdl.unimacro' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/vhdl/src/unimacro'
+    > Compiled Path  = 'C:\Xilinx\Xlib\unimacro'
+    > Log File       = 'C:/Xilinx/Xlib/unimacro/.cxl.vhdl.unimacro.unimacro.nt64.log'
+compile_simlib[vhdl.unisim:vhdl.unimacro]: 1 error(s), 0 warning(s)
+INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unimacro)' and 'END_COMPILATION_MESSAGES(modelsim:vhdl:unimacro)' in the log file compile_simlib.log for details of compilation error(s).
+
+--> Compiling 'vhdl.unisim:vhdl.unifast' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/vhdl/src/unifast'
+    > Compiled Path  = 'C:\Xilinx\Xlib\unifast'
+    > Log File       = 'C:/Xilinx/Xlib/unifast/.cxl.vhdl.unifast.unifast.nt64.log'
+compile_simlib[vhdl.unisim:vhdl.unifast]: 1 error(s), 0 warning(s)
+INFO: Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unifast)' and 'END_COMPILATION_MESSAGES(modelsim:vhdl:unifast)' in the log file compile_simlib.log for details of compilation error(s).
+
+
+compile_simlib[vhdl.unisim]: 3 error(s), 0 warning(s), 37.50 % complete
+Please refer to the messages between 'BEGIN_COMPILATION_MESSAGES(modelsim:vhdl:unisim)' and 'END_COMPILATION_MESSAGES(modelsim:vhdl:unisim)' in the log file compile_simlib.log for details of compilation error(s).
+
+--> Compiling 'verilog.unisim' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/verilog/src'
+    > Compiled Path  = 'C:\Xilinx\Xlib\unisims_ver'
+    > Log File       = 'C:/Xilinx/Xlib/unisims_ver/.cxl.verilog.unisim.unisims_ver.nt64.log'
+--> Compiling 'verilog.unisim:verilog.unimacro' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/verilog/src/unimacro'
+    > Compiled Path  = 'C:\Xilinx\Xlib\unimacro_ver'
+    > Log File       = 'C:/Xilinx/Xlib/unimacro_ver/.cxl.verilog.unimacro.unimacro_ver.nt64.log'
+compile_simlib[verilog.unisim:verilog.unimacro]: 0 error(s), 0 warning(s)
+--> Compiling 'verilog.unisim:verilog.unifast' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/verilog/src/unifast'
+    > Compiled Path  = 'C:\Xilinx\Xlib\unifast_ver'
+    > Log File       = 'C:/Xilinx/Xlib/unifast_ver/.cxl.verilog.unifast.unifast_ver.nt64.log'
+compile_simlib[verilog.unisim:verilog.unifast]: 0 error(s), 0 warning(s)
+
+compile_simlib[verilog.unisim]: 0 error(s), 0 warning(s), 50.00 % complete
+--> Compiling 'verilog.simprim' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/verilog/src/unisims'
+    > Compiled Path  = 'C:\Xilinx\Xlib\simprims_ver'
+    > Log File       = 'C:/Xilinx/Xlib/simprims_ver/.cxl.verilog.simprim.simprims_ver.nt64.log'
+
+compile_simlib[verilog.simprim]: 0 error(s), 0 warning(s), 62.50 % complete
+--> Compiling 'vhdl.xpm' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/ip/xpm'
+    > Compiled Path  = 'C:\Xilinx\Xlib\xpm'
+    > Log File       = 'C:/Xilinx/Xlib/xpm/.cxl.vhdl.xpm.xpm.nt64.log'
+
+compile_simlib[vhdl.xpm]: 0 error(s), 0 warning(s), 75.00 % complete
+** Warning: (vlib-34) Library already exists at "C:/Xilinx/Xlib/xpm".
+--> Compiling 'verilog.xpm' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data/ip/xpm'
+    > Compiled Path  = 'C:\Xilinx\Xlib\xpm'
+    > Log File       = 'C:/Xilinx/Xlib/xpm/.cxl.verilog.xpm.xpm.nt64.log'
+
+compile_simlib[verilog.xpm]: 0 error(s), 0 warning(s), 87.50 % complete
+--> Compiling 'verilog.xilinx_vip' library...
+    > Source Library = 'C:\Xilinx\Vivado\2020.1\data'
+    > Compiled Path  = 'C:\Xilinx\Xlib\xilinx_vip'
+    > Log File       = 'C:/Xilinx/Xlib/xilinx_vip/.cxl.verilog.xilinx_vip.xilinx_vip.nt64.log'
+
+compile_simlib[verilog.xilinx_vip]: 0 error(s), 0 warning(s), 100.00 % complete
+Copying setup file 'modelsim.ini' to 'C:\Xilinx\Xlib/modelsim.ini' ...
+
+***********************************************************************************************************************
+*                                             COMPILATION SUMMARY                                                     *
+*                                                                                                                     *
+*  Simulator used: modelsim                                                                                           *
+*  Compiled on: Mon Aug 24 18:20:27 2020                                                                              *
+*                                                                                                                     *
+***********************************************************************************************************************
+*  Library                                | Language |          Mapped Library Name           | Error(s) | Warning(s) *
+*---------------------------------------------------------------------------------------------------------------------*
+*  secureip                               | verilog  | secureip                               | 2        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unisim                                 | vhdl     | unisim                                 | 3        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unimacro                               | vhdl     | unimacro                               | 1        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unifast                                | vhdl     | unifast                                | 1        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unisim                                 | verilog  | unisims_ver                            | 0        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unimacro                               | verilog  | unimacro_ver                           | 0        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  unifast                                | verilog  | unifast_ver                            | 0        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  simprim                                | verilog  | simprims_ver                           | 0        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  xpm                                    | vhdl     | xpm                                    | 0        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  xpm                                    | verilog  | xpm                                    | 0        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+*  xilinx_vip                             | verilog  | xilinx_vip                             | 0        | 0          *
+-----------------------------------------------------------------------------------------------------------------------
+
+ERROR: [Vivado 12-5602] compile_simlib failed to compile for modelsim with error in 7 libraries (cxl_error.log)
+INFO: [Vivado 12-7167] Writing compiled library information...
+INFO: [Vivado 12-7165] Finished writing compiled library information.
+compile_simlib: Time (s): cpu = 00:00:04 ; elapsed = 00:04:15 . Memory (MB): peak = 1289.391 ; gain = 0.000
+ERROR: [Common 17-39] 'compile_simlib' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 24 23:30:35 2020...

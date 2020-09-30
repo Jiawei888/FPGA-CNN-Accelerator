@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sun Aug 30 20:21:19 2020
+# Process ID: 7028
+# Current directory: C:/Users/luojiawei/Desktop/pynq_1/soc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7316 C:\Users\luojiawei\Desktop\pynq_1\soc\pynq.xpr
+# Log file: C:/Users/luojiawei/Desktop/pynq_1/soc/vivado.log
+# Journal file: C:/Users/luojiawei/Desktop/pynq_1/soc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.xpr
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.39) then the current supported version (0.33).
+Data could be potentially be lost
+ERROR: [Project 1-208] No val for DA Elab Attr
+Scanning sources...
+****** Webtalk v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Aug 30 20:21:34 2020...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 30 20:21:39 2020...

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sun Aug 30 20:21:19 2020
+# Process ID: 7028
+# Current directory: C:/Users/luojiawei/Desktop/pynq_1/soc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7316 C:\Users\luojiawei\Desktop\pynq_1\soc\pynq.xpr
+# Log file: C:/Users/luojiawei/Desktop/pynq_1/soc/vivado.log
+# Journal file: C:/Users/luojiawei/Desktop/pynq_1/soc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/luojiawei/Desktop/pynq_1/soc/pynq.xpr

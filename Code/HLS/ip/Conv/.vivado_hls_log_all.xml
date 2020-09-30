@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-68] Unable to enforce a carried dependency constraint (II = 1, distance = 1)&#xD;&#xA;   between bus request on port 'gmem' (Conv/Conv_core.cpp:67) and bus request on port 'gmem' (Conv/Conv_core.cpp:67)." projectName="Conv" solutionName="solution1" date="2020-09-06T19:48:23.119+0100" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] the outer loop is not a perfect loop because there is nontrivial logic in the loop latch." projectName="Conv" solutionName="solution1" date="2020-09-06T19:48:22.510+0100" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Wout' (Conv/Conv_core.cpp:46:5) in function 'Conv' : " projectName="Conv" solutionName="solution1" date="2020-09-06T19:48:22.510+0100" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop." projectName="Conv" solutionName="solution1" date="2020-09-06T19:48:22.510+0100" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Kx' (Conv/Conv_core.cpp:52:7) in function 'Conv' : " projectName="Conv" solutionName="solution1" date="2020-09-06T19:48:22.510+0100" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

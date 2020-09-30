@@ -1,0 +1,415 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Aug 23 00:57:43 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008171523) to (Rev. 2008230056)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Aug 23 00:57:43 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008230033) to (Rev. 2008230053)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Aug 23 00:34:25 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008171514) to (Rev. 2008230033)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 15:24:27 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008171401) to (Rev. 2008171523)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 15:24:27 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008171406) to (Rev. 2008171514)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 14:08:04 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008171342) to (Rev. 2008171401)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 14:08:04 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008171338) to (Rev. 2008171406)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 13:43:24 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008171312) to (Rev. 2008171342)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 13:43:24 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008171315) to (Rev. 2008171338)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 13:16:52 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008171246) to (Rev. 2008171312)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 13:16:52 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008171245) to (Rev. 2008171315)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 12:47:45 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008171214) to (Rev. 2008171246)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 12:47:45 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008171200) to (Rev. 2008171245)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 12:16:06 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008171202) to (Rev. 2008171214)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 12:06:21 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008151535) to (Rev. 2008171202)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Aug 17 12:06:21 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008151540) to (Rev. 2008171200)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Aug 15 15:41:58 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008151515) to (Rev. 2008151535)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Aug 15 15:41:58 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008151508) to (Rev. 2008151540)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Aug 15 15:16:19 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Pool_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Pool_0_0 (xilinx.com:hls:Pool:1.0) from (Rev. 2008071819) to (Rev. 2008151515)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Aug 15 15:16:19 2020
+| Host         : CFCD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pynq_Conv_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pynq_Conv_0_0 (xilinx.com:hls:Conv:1.0) from (Rev. 2008071723) to (Rev. 2008151508)
+

@@ -1,0 +1,84 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2016.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'luojiawei' on host 'cfcd' (Windows NT_amd64 version 6.2) on Sun Sep 06 19:48:04 +0100 2020
+INFO: [HLS 200-10] In directory 'C:/Users/luojiawei/Desktop/pynq_1/ip'
+INFO: [HLS 200-10] Opening project 'C:/Users/luojiawei/Desktop/pynq_1/ip/Conv'.
+INFO: [HLS 200-10] Adding design file 'Conv/Conv_core.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'Conv/Conv_core.h' to the project
+INFO: [HLS 200-10] Adding test bench file 'Conv/main.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'C:/Users/luojiawei/Desktop/pynq_1/ip/Conv/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 100ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [HLS 200-10] Analyzing design file 'Conv/Conv_core.cpp' ... 
+INFO: [HLS 200-10] Validating synthesis directives ...
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (Conv/Conv_core.cpp:41:16) in function 'Conv'... converting 3 basic blocks.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Kx' (Conv/Conv_core.cpp:52:7) in function 'Conv' : 
+WARNING: [XFORM 203-542] the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'Ky' (Conv/Conv_core.cpp:50:6) in function 'Conv'.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Wout' (Conv/Conv_core.cpp:46:5) in function 'Conv' : 
+WARNING: [XFORM 203-542] the outer loop is not a perfect loop because there is nontrivial logic in the loop latch.
+INFO: [XFORM 203-541] Flattening a loop nest 'Hout' (Conv/Conv_core.cpp:44:4) in function 'Conv'.
+INFO: [XFORM 203-541] Flattening a loop nest 'CHout' (Conv/Conv_core.cpp:42:3) in function 'Conv'.
+INFO: [HLS 200-111] Elapsed time: 18.89 seconds; current memory usage: 111 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'Conv' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Scheduling module 'Conv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'CHin'.
+WARNING: [SCHED 204-68] Unable to enforce a carried dependency constraint (II = 1, distance = 1)
+   between bus request on port 'gmem' (Conv/Conv_core.cpp:67) and bus request on port 'gmem' (Conv/Conv_core.cpp:67).
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 2, Depth: 11.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Elapsed time: 0.157 seconds; current memory usage: 114 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Exploring micro-architecture for module 'Conv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Elapsed time: 0.125 seconds; current memory usage: 114 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Conv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/CHin_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/Hin_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/Win_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/CHout_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/Kx_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/Ky_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/Sx_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/Sy_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/mode_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/relu_en_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/feature_in' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/W' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/bias' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'Conv/feature_out' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'Conv' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return', 'CHin_V', 'Hin_V', 'Win_V', 'CHout_V', 'Kx_V', 'Ky_V', 'Sx_V', 'Sy_V', 'mode_V', 'relu_en_V', 'feature_in', 'W', 'bias' and 'feature_out' to AXI-Lite port AXILiteS.
+INFO: [RTGEN 206-100] Generating core module 'Conv_fadd_32ns_32ns_32_1_full_dsp': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_fcmp_32ns_32ns_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_fmul_32ns_32ns_32_1_max_dsp': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mac_mul_sub_16s_8ns_8ns_16_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mac_muladd_16ns_16ns_16ns_32_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mac_muladd_16s_16ns_48ns_48_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mac_muladd_8ns_16ns_32ns_32_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mul_mul_16ns_16ns_32_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mul_mul_16ns_16s_32_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mul_mul_16s_8ns_16_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_mul_mul_8ns_16s_16_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'Conv_sdiv_19s_9ns_19_23_seq': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Conv'.
+INFO: [HLS 200-111] Elapsed time: 0.188 seconds; current memory usage: 115 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'Conv_sdiv_19s_9ns_19_23_seq_div'
+INFO: [HLS 200-10] Finished generating all RTL models.
+INFO: [SYSC 207-301] Generating SystemC RTL for Conv.
+INFO: [VHDL 208-304] Generating VHDL RTL for Conv.
+INFO: [VLOG 209-307] Generating Verilog RTL for Conv.
+INFO: [HLS 200-112] Total elapsed time: 21.124 seconds; peak memory usage: 115 MB.

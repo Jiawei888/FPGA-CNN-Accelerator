@@ -1,0 +1,8 @@
+   Compiling ../../../Conv_core.cpp in debug mode
+../../../Conv_core.cpp: In function 'void Conv(ap_uint<16>, ap_uint<16>, ap_uint<16>, ap_uint<16>, ap_uint<8>, ap_uint<8>, ap_uint<8>, ap_uint<8>, ap_uint<1>, ap_uint<1>, Dtype_f*, Dtype_w*, Dtype_w*, Dtype_f*)':
+../../../Conv_core.cpp:93:28: error: invalid types 'Dtype_f {aka float}[int]' for array subscript
+../../../Conv_core.cpp:93:46: error: invalid types 'Dtype_w {aka float}[int]' for array subscript
+../../../Conv_core.cpp:93:75: error: invalid types 'Dtype_f {aka float}[int]' for array subscript
+../../../Conv_core.cpp:93:105: error: invalid types 'Dtype_f {aka float}[int]' for array subscript
+make: *** [obj/Conv_core.o] Error 1
+CRITICAL WARNING: [SIM 1] 'csim_design' failed: compilation error(s).

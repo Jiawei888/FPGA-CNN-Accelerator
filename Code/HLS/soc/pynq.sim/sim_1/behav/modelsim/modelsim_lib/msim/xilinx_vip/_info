@@ -1,0 +1,281 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/luojiawei/Desktop/pynq_1/soc/pynq.sim/sim_1/behav/modelsim
+Yaxi4stream_vip_axi4streampc
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1597530591
+!i10b 1
+!s100 o`;X1b5=3m?5:j58f@IeY2
+I`XO=@fP3e?^7G5JiDI^?22
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 axi4stream_vip_axi4streampc_sv_unit
+S1
+R0
+Z4 w1590639785
+8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv
+FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv
+L0 177
+Z5 OL;L;10.4;61
+r1
+!s85 0
+31
+Z6 !s108 1597530591.091000
+Z7 !s107 C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include/xil_common_vip_macros.svh|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/rst_vip_if.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/clk_vip_if.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_if.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_if.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_pkg.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/xil_common_vip_pkg.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv|
+Z8 !s90 -incr|-sv|-L|axi_vip_v1_1_7|-L|processing_system7_vip_v1_0_9|-L|xilinx_vip|-work|xilinx_vip|+incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/xil_common_vip_pkg.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_pkg.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_if.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_if.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/clk_vip_if.sv|C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/rst_vip_if.sv|
+!i113 0
+Z9 o-sv -L axi_vip_v1_1_7 -L processing_system7_vip_v1_0_9 -L xilinx_vip -work xilinx_vip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -sv -L axi_vip_v1_1_7 -L processing_system7_vip_v1_0_9 -L xilinx_vip -work xilinx_vip +incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Yaxi4stream_vip_if
+R1
+Z11 DXx4 work 18 xil_common_vip_pkg 0 22 NH9ZRkl@cZ`W>iAM5=92`3
+Z12 DXx4 work 18 axi4stream_vip_pkg 0 22 o2U4XRN]mCLNI7AnJgm=k0
+DXx4 work 25 axi4stream_vip_if_sv_unit 0 22 c3Tka=5<BP=5zAjfYOjjW3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 LdFB6b]eEEWGL5]`a?WPI1
+I4GnE;n;fWWFinDbgkLZ722
+!s105 axi4stream_vip_if_sv_unit
+S1
+R0
+R4
+Z13 8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_if.sv
+Z14 FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_if.sv
+L0 71
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xaxi4stream_vip_if_sv_unit
+R1
+R11
+R12
+Vc3Tka=5<BP=5zAjfYOjjW3
+r1
+!s85 0
+31
+!i10b 1
+!s100 aaMW=Xk?YzILlXcRn<M9<1
+Ic3Tka=5<BP=5zAjfYOjjW3
+!i103 1
+S1
+R0
+R4
+R13
+R14
+L0 69
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xaxi4stream_vip_pkg
+R1
+R11
+R2
+!i10b 1
+!s100 <dXDX;;Rb?fBNU0XQDXak3
+Io2U4XRN]mCLNI7AnJgm=k0
+Vo2U4XRN]mCLNI7AnJgm=k0
+S1
+R0
+Z15 w1590640543
+8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv
+FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv
+Z16 FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/include/xil_common_vip_macros.svh
+Z17 L0 51
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Yaxi_vip_axi4pc
+R1
+R2
+!i10b 1
+!s100 BGci:9dfGQFlY]o[LJSm23
+IloBg0<Qim>R8CgC[Wn^LR0
+R3
+!s105 axi_vip_axi4pc_sv_unit
+S1
+R0
+Z18 w1590639786
+8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv
+FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv
+L0 559
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Yaxi_vip_if
+R1
+R11
+Z19 DXx4 work 11 axi_vip_pkg 0 22 m0bQ^3LU]b3;nXjeUCQh60
+DXx4 work 18 axi_vip_if_sv_unit 0 22 Bgle9O?kTAISi0MV:12:?3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 9Qn8OZgmgPWZIZdO8TA5>2
+IEiNOMBezG6PX?haHeT15C3
+!s105 axi_vip_if_sv_unit
+S1
+R0
+R18
+Z20 8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_if.sv
+Z21 FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_if.sv
+L0 118
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xaxi_vip_if_sv_unit
+R1
+R11
+R19
+VBgle9O?kTAISi0MV:12:?3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Y23C7ZhGZXRA_8CI_OhCd2
+IBgle9O?kTAISi0MV:12:?3
+!i103 1
+S1
+R0
+R18
+R20
+R21
+Z22 L0 49
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xaxi_vip_pkg
+R1
+R11
+R2
+!i10b 1
+!s100 A_WUeRJ?SQf]@c65CS;6G3
+Im0bQ^3LU]b3;nXjeUCQh60
+Vm0bQ^3LU]b3;nXjeUCQh60
+S1
+R0
+R15
+8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_pkg.sv
+FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/axi_vip_pkg.sv
+R16
+R17
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Yclk_vip_if
+R1
+R2
+!i10b 1
+!s100 ]0H;nD0Tb80WTm@jcgB:h1
+IBV1]>G_R5NQ4mKJ7@0@kZ1
+R3
+!s105 clk_vip_if_sv_unit
+S1
+R0
+R18
+8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/clk_vip_if.sv
+FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/clk_vip_if.sv
+R17
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Yrst_vip_if
+R1
+R2
+!i10b 1
+!s100 O:nRCh;_6O6TgAIZQRT9?1
+IKd>`]N<f^WNI[Y5]gH9hV0
+R3
+!s105 rst_vip_if_sv_unit
+S1
+R0
+R18
+8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/rst_vip_if.sv
+FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/rst_vip_if.sv
+L0 50
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+Xxil_common_vip_pkg
+R1
+R2
+!i10b 1
+!s100 FYhAzh79ndIA?FcV[>@<H0
+INH9ZRkl@cZ`W>iAM5=92`3
+VNH9ZRkl@cZ`W>iAM5=92`3
+S1
+R0
+R18
+8C:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/xil_common_vip_pkg.sv
+FC:/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/xil_common_vip_pkg.sv
+R22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10

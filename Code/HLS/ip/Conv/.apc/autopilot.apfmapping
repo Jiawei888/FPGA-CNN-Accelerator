@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Conv_core.h" path="C:\Users\luojiawei\Desktop\pynq_1\ip\Conv\Conv_core.h"/>
+    <originFiles name="Conv_core.cpp" path="C:\Users\luojiawei\Desktop\pynq_1\ip\Conv\Conv_core.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="C:\Users\luojiawei\Desktop\pynq_1\ip\Conv\main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
